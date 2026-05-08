@@ -169,3 +169,9 @@ https://github.com/Coffee1337
 https://github.com/Coffee1337
 
 </div>
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Coffee1337&theme=tokyonight)
+
+
+📄 Скачать PDF резюме:
+[Egor_Trefilov_Resume.pdf](./Egor_Trefilov_Resume.pdf)
