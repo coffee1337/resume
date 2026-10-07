@@ -1,177 +1,192 @@
 <div align="center">
 
-# 👋 Егор Трефилов / Coffee1337
+# Егор Трефилов
 
-### Junior Backend / AI Automation Developer
+### Python Backend & AI Automation Developer
 
-Разработчик, занимающийся AI, автоматизацией, backend-системами и аналитикой данных.
+Backend-разработчик с фокусом на Python, FastAPI, PostgreSQL, Docker и AI/LLM-интеграции.
 
-<br/>
-
-![Python](https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python)
-![Flutter](https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter)
-![TypeScript](https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript)
-![CSharp](https://img.shields.io/badge/CSharp-20232A?style=for-the-badge&logo=csharp)
-![Dart](https://img.shields.io/badge/Dart-20232A?style=for-the-badge&logo=dart)
+[Portfolio](https://coffee1337.github.io) · [GitHub](https://github.com/Coffee1337) · [PDF Resume](./Egor_Trefilov_Resume.pdf)
 
 </div>
 
 ---
 
-# 🚀 Обо мне
+## 👨‍💻 Profile
 
-Self-taught разработчик, занимающийся AI-интеграциями, backend-разработкой, автоматизацией и аналитикой данных.
+Разрабатываю backend-системы, AI-powered приложения и инструменты автоматизации.
 
-Создаю pet-projects, связанные с:
-- backend-системами;
-- обработкой данных;
-- AI automation;
-- Flutter-приложениями;
-- аналитикой и мониторингом данных.
+Основной фокус:
 
-Интересуюсь:
-- backend architecture;
-- data analysis;
-- AI & automation;
-- scalable systems;
-- engineering-oriented development.
+- Python backend development;
+- REST API и сервисная архитектура;
+- PostgreSQL и работа с данными;
+- AI / LLM integrations;
+- RAG;
+- background processing;
+- Docker и CI;
+- проектирование production-oriented приложений.
+
+Также имею опыт с Flutter, C#/.NET, C++ и TypeScript.
 
 ---
 
-# 🛠 Технологии
+## 🛠 Core Stack
 
-## Backend / Tools
+### Backend
 
 - Python
 - FastAPI
 - REST API
-- SQL
-- Docker
+- PostgreSQL
+- SQLAlchemy
+- Alembic
 - AsyncIO
-- Git
 
----
+### AI / Automation
 
-## AI / Data Analysis
-
+- LLM APIs
+- RAG
+- AI integrations
+- prompt workflows
+- data processing
 - Pandas
-- Data Analysis
-- OpenAI API
-- Parsing & Scraping
-- Automation Systems
-- Data Processing
+- automation
 
----
+### Infrastructure
 
-## Frontend / Mobile
-
-- Flutter
-- Dart
-- TypeScript
-- TailwindCSS
-- HTML / CSS
-
----
-
-## Дополнительно
-
-- C#
-- Go
+- Docker
+- Git
+- GitHub Actions
 - Linux
+- CI/CD fundamentals
+
+### Additional
+
+- Next.js
+- TypeScript
+- Flutter / Dart
+- C# / .NET
+- C++17
+- Swift
 
 ---
 
-# 📂 Основные проекты
+## 🚀 Selected Projects
 
-## 💳 TransactionMonitor
+### 🧠 AI Python Mentor
 
-Система мониторинга и анализа транзакций на C#/.NET.
+Full-stack AI-powered learning platform for Python and backend development.
 
-### Что реализовано:
-- backend-логика обработки транзакций;
-- мониторинг и обработка событий;
-- логирование;
-- модульная архитектура;
-- аналитика и обработка данных.
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Next.js · Docker · RAG
 
-GitHub:
-https://github.com/Coffee1337/TransactionMonitor
+Key work:
+
+- authentication and session management;
+- PostgreSQL migrations;
+- AI Gateway and RAG;
+- background jobs and durable queues;
+- AI usage quotas and cost tracking;
+- email and Telegram integrations;
+- billing infrastructure;
+- automated tests and CI;
+- separate architecture for secure Python code execution.
+
+Repository:  
+https://github.com/Coffee1337/ai-python-mentor
 
 ---
 
-## 🎓 NGIE University App
+### 🎓 NGIE University App
 
-Кроссплатформенное Flutter-приложение для университета.
+Cross-platform university application with offline storage, notifications and native mobile widgets.
 
-### Что реализовано:
-- современный UI/UX;
-- компонентная архитектура;
-- адаптивный интерфейс;
-- Flutter/Dart development;
-- организация структуры приложения.
+**Stack:** Flutter · Dart · Riverpod · Drift · SQLite · Swift · WidgetKit
 
-GitHub:
+Key work:
+
+- feature-oriented Flutter architecture;
+- Riverpod state management;
+- local relational storage;
+- network and cache layers;
+- local notifications;
+- native iOS WidgetKit extension;
+- Android/iOS widget integration;
+- automated tests and mobile CI.
+
+Repository:  
 https://github.com/Coffee1337/ngieuapp
 
 ---
 
-## 🧠 K-Nearest-Neighbors
+### 💳 TransactionMonitor
 
-Реализация алгоритма KNN с нуля.
+Desktop transaction monitoring and risk-analysis application.
 
-### Что реализовано:
-- алгоритм классификации;
-- обработка данных;
-- изучение ML basics;
-- работа с аналитикой данных.
+**Stack:** C# · .NET 8 · WinUI 3 · SQL Server
 
-GitHub:
+Key work:
+
+- transaction monitoring;
+- rule-based risk scoring;
+- dashboard and analytics;
+- client and account management;
+- counterparty risk analysis;
+- analyst review flow;
+- CSV export;
+- SQL data access.
+
+Repository:  
+https://github.com/Coffee1337/TransactionMonitor
+
+---
+
+### 📐 K-Nearest Neighbors
+
+k-NN classification algorithm implemented from scratch in C++.
+
+**Stack:** C++17 · CMake · WinAPI
+
+Key work:
+
+- Euclidean, Manhattan and Cosine distance metrics;
+- simple and weighted voting;
+- feature normalization;
+- CSV processing;
+- desktop GUI;
+- configurable classification parameters.
+
+Repository:  
 https://github.com/Coffee1337/k-nearest-neighbors
 
 ---
 
-## 🤖 AI Telegram Bots
+## 🎯 Current Focus
 
-Telegram-боты с AI-интеграциями и automation-функциональностью.
+Currently deepening my knowledge in:
 
-### Что реализовано:
-- AI API integration;
-- automation workflows;
-- обработка пользовательских запросов;
-- backend-логика.
+- backend architecture;
+- system design;
+- advanced Python;
+- PostgreSQL;
+- distributed systems;
+- AI / LLM application architecture;
+- reliable background processing.
 
-GitHub:
+---
+
+## 📄 Resume
+
+A PDF version of my resume is available here:
+
+**[Download / Open PDF Resume](./Egor_Trefilov_Resume.pdf)**
+
+---
+
+## 🔗 Links
+
+Portfolio:  
+https://coffee1337.github.io
+
+GitHub:  
 https://github.com/Coffee1337
-
----
-
-# 📚 Сейчас изучаю
-
-- Backend Architecture
-- Data Engineering
-- AI / ML
-- System Design
-- Scalable Backend Systems
-- Advanced Python
-
----
-
-# 🎯 Цель
-
-Развиваться как backend / AI / data developer и создавать проекты, которые решают реальные задачи и автоматизируют процессы.
-
----
-
-# 📫 Контакты
-
-## GitHub
-
-https://github.com/Coffee1337
-
-</div>
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Coffee1337&theme=tokyonight)
-
-
-📄 Скачать PDF резюме:
-[Egor_Trefilov_Resume.pdf](./Egor_Trefilov_Resume.pdf)
