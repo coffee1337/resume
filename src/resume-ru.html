@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Егор Трефилов — Python Backend &amp; AI Automation Developer</title>
+<meta name="author" content="Егор Трефилов">
+<meta name="description" content="Резюме — Python Backend &amp; AI Automation Developer, FastAPI / PostgreSQL / LLM / RAG.">
+<link rel="stylesheet" href="../assets/resume.css">
+</head>
+<body>
+
+<header class="head">
+  <h1>Егор Трефилов</h1>
+  <div class="role">Python Backend &amp; AI Automation Developer</div>
+  <div class="contacts mono">
+    Нижний Новгород (UTC+3)<span class="sep">/</span><a href="mailto:trefilovegor84@gmail.com">trefilovegor84@gmail.com</a><span class="sep">/</span>Telegram <a href="https://t.me/cooffeek1337">@cooffeek1337</a><br>
+    <a href="https://github.com/coffee1337">github.com/coffee1337</a><span class="sep">/</span><a href="https://www.linkedin.com/in/coffee1337/">linkedin.com/in/coffee1337</a><span class="sep">/</span><a href="https://coffee1337.github.io">coffee1337.github.io</a>
+  </div>
+</header>
+
+<section>
+  <h2>Профиль</h2>
+  <p class="profile">
+    Backend-разработчик: делаю Python-сервисы, которые работают не только в демо — FastAPI-API, схемы
+    PostgreSQL с версионированными миграциями, cookie-сессии, фоновые обработчики и деплой в Docker.
+    Встраиваю LLM/RAG в продукт по-настоящему: retrieval по контенту платформы, учёт использования и стоимости
+    вызовов на пользователя, потоковые ответы. На R&amp;D-практике по ML / Computer Vision построил физический
+    генератор синтетических кадров ИКО РЛС и обучил детектор YOLO11s на зарегистрированной базе данных
+    (Роспатент № 2026624059). Работаю и за пределами бэкенда: React/Next.js, Flutter, .NET.
+  </p>
+</section>
+
+<section>
+  <h2>Опыт</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Python Backend &amp; AI Automation Developer <span class="org">— Проектная разработка / Фриланс</span></div>
+      <div class="job-when">Август 2025 — настоящее время</div>
+    </div>
+    <ul>
+      <li>Разрабатываю FastAPI-сервисы на PostgreSQL со SQLAlchemy и Alembic, cookie-сессии, проверку ролей, фоновые обработчики и поставку в Docker.</li>
+      <li>Строил RAG-пайплайны (pgvector, стриминг) и AI-функции с квотами и учётом стоимости; подключал Telegram и email через адаптеры на переменных окружения.</li>
+      <li>Автоматизирую рутину: Telegram-боты, парсеры, внешние API и обработку данных с ретраями и идемпотентной записью.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">R&amp;D-практика (ML / Computer Vision) <span class="org">— НИИ радиотехники</span></div>
+      <div class="job-when">2026</div>
+    </div>
+    <div class="job-tag">RADARPPI-MTD · БАЗА ДАННЫХ ЗАРЕГИСТРИРОВАНА В РОСПАТЕНТЕ, № 2026624059, ПРИ НГИЭУ</div>
+    <ul>
+      <li>Построил <b>RadarPPI-MTD</b> — физический генератор синтетических кадров ИКО РЛС с авторазметкой без ошибок: 10 000 сцен, 619 153 кадра (1120×855), ~11,0 млн рамок, 11,8 ГБ.</li>
+      <li>Обучил YOLO11s на PyTorch: mAP@0.5 = 0,924, precision 0,988, recall 0,908; собственные радиолокационные метрики на 2 000 сценах — Pd = 0,916, F1 = 0,955, FPPI = 0,05, ошибка локализации 0,56 px (≈27 м).</li>
+      <li>Проверил перенос sim-to-real на живых кадрах РЛС и добавил сопровождение ByteTrack; конвейер работал офлайн в изолированной среде.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Избранные проекты</h2>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">AI Python Mentor</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/ai-python-mentor/">кейс</a> · <a href="https://github.com/coffee1337/ai-python-mentor">исходники</a></div>
+    </div>
+    <div class="proj-stack">Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Next.js · Docker · RAG</div>
+    <div class="proj-result">350 тестов API · 10 пропущено · 15 тестов песочницы · 90 заданий / 288 кейсов</div>
+    <p>Full-stack платформа обучения: 90 навыков и заданий, AI-наставник с retrieval в pgvector по снимкам уроков, интервальные повторения, анализ карьерных целей и отдельный защищённый runner для пользовательского Python вне API.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">RadarPPI-MTD</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/radar-ppi-mtd/">кейс</a> · <a href="https://new.fips.ru/registers-doc-view/fips_servlet?DB=DB&amp;DocNumber=2026624059&amp;TypeFile=html">Роспатент</a></div>
+    </div>
+    <div class="proj-stack">Python · PyTorch · YOLO11s · OpenCV · NumPy · ByteTrack</div>
+    <div class="proj-result">База данных в реестре Роспатента · mAP@0.5 0,924 · Pd 0,916 · FPPI 0,05</div>
+    <p>Генератор кадров ИКО РЛС, зарегистрированный как база данных (№ 2026624059), и детектор движущихся целей: полярно-пиксельная геометрия, пуассоновская помеха, сбалансированные сцены, оценка Pd/FPPI.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">portfolio-analytics</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/portfolio-analytics/">кейс</a> · <a href="https://github.com/coffee1337/portfolio-analytics">исходники</a></div>
+    </div>
+    <div class="proj-stack">Python · FastAPI · SQLAlchemy 2.0 · PostgreSQL · React 19 · TypeScript · Tailwind · Docker</div>
+    <div class="proj-result">Работает на coffee1337.github.io · без cookies и сырых IP</div>
+    <p>Собственная аналитика, работающая на этом сайте: приём событий с батчами и лимитами, HMAC с солью вместо сырых IP, асинхронное гео/ASN в фоновых задачах, Core Web Vitals и SPA-дашборд с матрицей 24×7.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">NGIE University App</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/ngie/">кейс</a> · <a href="https://github.com/coffee1337/ngieuapp">исходники</a></div>
+    </div>
+    <div class="proj-stack">Flutter · Dart · Riverpod · Drift · SQLite · Kotlin · Swift · WidgetKit</div>
+    <div class="proj-result">Offline-first: расписание открывается из кэша · виджеты нативные</div>
+    <p>Кроссплатформенное приложение вуза: offline-first кэш на Drift/SQLite, сетевой и кэш-слои, уведомления о расписании и нативные виджеты главного экрана и экрана блокировки для Android и iOS.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">TransactionMonitor</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/transaction-monitor/">кейс</a> · <a href="https://github.com/coffee1337/TransactionMonitor">исходники</a></div>
+    </div>
+    <div class="proj-stack">C# · .NET 8 · WinUI 3 · SQL Server</div>
+    <div class="proj-result">Rule-based скоринг сохраняется с транзакцией · экспорт CSV для аналитика</div>
+    <p>Настольное приложение мониторинга транзакций и анализа рисков: объяснимый rule-based скоринг вместе с транзакцией, клиенты/счета/контрагенты, просмотр высокорисковых операций и экспорт в CSV.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">Neural A* Heuristic</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/ru/projects/neural-astar/">кейс</a> · <a href="https://github.com/coffee1337/neural-astar-heuristic">исходники</a></div>
+    </div>
+    <div class="proj-stack">Python · PyTorch · NumPy · A* · Docker</div>
+    <div class="proj-result">Одна архитектура, три пространства состояний · обучение на решённых состояниях</div>
+    <p>Нейросетевая функция ценности V(s), обученная на обратных блужданиях из решённых состояний, становится эвристикой A* (f = g + V); одна архитектура покрывает три пространства состояний — «Пятнашки», Toggle Lights и Cylinder — через общий API.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Образование</h2>
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Бакалавриат, 09.03.01 «Информатика и вычислительная техника» <span class="org">— НГИЭУ, Нижегородский государственный инженерно-экономический университет</span></div>
+      <div class="job-when">2024 — 2028</div>
+    </div>
+    <p class="job-tag">СИСТЕМЫ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА · 3 КУРС · ВЫПУСК 2028</p>
+  </div>
+</section>
+
+<section>
+  <h2>Сертификаты и регистрация ИС</h2>
+
+  <div class="card">
+    <div class="t">Свидетельство о государственной регистрации базы данных № 2026624059 — RadarPPI-MTD</div>
+    <div class="m">Роспатент (ФИПС) · август 2026 · правообладатель: НГИЭУ · 11,8 ГБ · Radar PPI Generator v1.0.0</div>
+    <div class="l"><a href="https://new.fips.ru/registers-doc-view/fips_servlet?DB=DB&amp;DocNumber=2026624059&amp;TypeFile=html">реестр ФИПС</a> · <a href="https://coffee1337.github.io/certificates/ru2026624059-certificate.pdf">свидетельство PDF</a> · <a href="https://coffee1337.github.io/certificates/ru2026624059-abstract.pdf">реферат PDF</a></div>
+  </div>
+
+  <table>
+    <tr>
+      <td class="name">Generative AI Professional Certificate by Snowflake</td>
+      <td class="issuer">Snowflake · ноябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/7dbcfe3d6e75e230a455c69fc572a2bf422822b777cc40686c8ec1b220177967/">проверить</a></td>
+    </tr>
+    <tr>
+      <td class="name">Docker Foundations Professional Certificate</td>
+      <td class="issuer">Docker, Inc. · октябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/3da5e65791016cdc89e7f42a986a37c699f119cf7b6f90ac683362857740c3f7/">проверить</a></td>
+    </tr>
+    <tr>
+      <td class="name">Microsoft Azure Essentials Professional Certificate</td>
+      <td class="issuer">Microsoft · октябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/1e5b63d85c89c9efa42594708e819226f4036646c14fd345356a085d3f5b58e6/">проверить</a></td>
+    </tr>
+    <tr>
+      <td class="name">Career Essentials in GitHub Professional Certificate</td>
+      <td class="issuer">GitHub · октябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/5ee9bbacfc5a96408649fbb18ec701032c546fcc574f4395c077ae8cef0aed48/">проверить</a></td>
+    </tr>
+    <tr>
+      <td class="name">Building AI Agents with Snowflake</td>
+      <td class="issuer">LinkedIn Learning · Snowflake · ноябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/7432d7674af7d7e569f163ae9668c3a290d63075ec99cac1e8f563783c4bb768/">проверить</a></td>
+    </tr>
+    <tr>
+      <td class="name">AWS Certified AI Practitioner (AIF-C01) Cert Prep</td>
+      <td class="issuer">LinkedIn Learning · октябрь 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/4ca1b7777b424c3d759513f754b34f1897de6d5f41921b8e65b70983d4adc663/">проверить</a></td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Технические навыки</h2>
+  <div class="skills">
+    <div class="row"><b>Backend</b> <span>— Python 3.12, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Redis, AsyncIO, REST API, cookie-сессии, фоновые задачи, Argon2</span></div>
+    <div class="row"><b>AI, ML и данные</b> <span>— LLM API, RAG / pgvector, PyTorch, YOLO11s, OpenCV, NumPy, Pandas, ByteTrack, Snowflake, учёт токенов и стоимости вызовов</span></div>
+    <div class="row"><b>Cloud и DevOps</b> <span>— Docker, Docker Compose, GitHub Actions, Microsoft Azure, AWS, Linux, Git, Caddy, Prometheus/Grafana, нагрузочное тестирование k6</span></div>
+    <div class="row"><b>Frontend, мобильные и десктоп</b> <span>— React 19, Next.js 15, TypeScript, Tailwind CSS, Vite, Flutter/Dart, C#/.NET 8 + WinUI 3, C++17, Swift/WidgetKit, Kotlin</span></div>
+    <div class="row"><b>Инженерные практики</b> <span>— pytest, Playwright и визуальный аудит, CI-пайплайны, миграции Alembic, учения по backup/restore, runbook и моделирование угроз</span></div>
+  </div>
+</section>
+
+</body>
+</html>

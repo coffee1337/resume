@@ -1,0 +1,11 @@
+{
+  "name": "coffee1337-resume",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A4 résumé sources (EN + RU) built to PDF with headless Chrome",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-pdf.mjs"
+  },
+  "license": "MIT"
+}

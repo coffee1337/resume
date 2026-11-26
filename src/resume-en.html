@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Egor Trefilov — Python Backend &amp; AI Automation Developer</title>
+<meta name="author" content="Egor Trefilov">
+<meta name="description" content="Résumé — Python Backend &amp; AI Automation Developer, FastAPI / PostgreSQL / LLM / RAG.">
+<link rel="stylesheet" href="../assets/resume.css">
+</head>
+<body>
+
+<header class="head">
+  <h1>Egor Trefilov</h1>
+  <div class="role">Python Backend &amp; AI Automation Developer</div>
+  <div class="contacts mono">
+    Nizhny Novgorod (UTC+3)<span class="sep">/</span><a href="mailto:trefilovegor84@gmail.com">trefilovegor84@gmail.com</a><span class="sep">/</span>Telegram <a href="https://t.me/cooffeek1337">@cooffeek1337</a><br>
+    <a href="https://github.com/coffee1337">github.com/coffee1337</a><span class="sep">/</span><a href="https://www.linkedin.com/in/coffee1337/">linkedin.com/in/coffee1337</a><span class="sep">/</span><a href="https://coffee1337.github.io">coffee1337.github.io</a>
+  </div>
+</header>
+
+<section>
+  <h2>Profile</h2>
+  <p class="profile">
+    Backend developer building Python services that hold up outside a demo: FastAPI APIs, PostgreSQL schemas
+    with versioned migrations, cookie-auth sessions, background workers and Docker deployment. I integrate
+    LLM/RAG into products properly — retrieval over the platform's own content, per-user usage accounting,
+    streamed answers — rather than wrapping a prompt. In an ML / Computer Vision R&amp;D internship I built a
+    physics-based synthetic radar PPI generator and trained a YOLO11s detector on the resulting registered
+    dataset (Rospatent #2026624059). Comfortable beyond the backend too: React/Next.js, Flutter and .NET.
+  </p>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">Python Backend &amp; AI Automation Developer <span class="org">— Independent / Freelance</span></div>
+      <div class="job-when">Aug 2025 — Present</div>
+    </div>
+    <ul>
+      <li>Ship FastAPI services on PostgreSQL with SQLAlchemy and Alembic migrations, cookie sessions, role checks, background workers and Docker-based delivery.</li>
+      <li>Built RAG pipelines (pgvector retrieval, streaming) and usage-aware AI features with per-user quotas and token/cost accounting; wired Telegram and email providers behind env-driven adapters.</li>
+      <li>Automate repetitive work: Telegram bots, parsers, external API integrations and data-processing scripts with retries and idempotent writes.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">ML / Computer Vision R&amp;D Intern <span class="org">— Radio-Engineering Research Institute</span></div>
+      <div class="job-when">2026</div>
+    </div>
+    <div class="job-tag">RADARPPI-MTD · DATASET REGISTERED WITH ROSPATENT #2026624059 AT NGIEU</div>
+    <ul>
+      <li>Built <b>RadarPPI-MTD</b>, a physics-based synthetic radar PPI generator with zero-error auto-labelling: 10,000 scenes, 619,153 frames (1120×855), ~11.0M boxes, 11.8 GB.</li>
+      <li>Trained YOLO11s on PyTorch: mAP@0.5 = 0.924, precision 0.988, recall 0.908; custom radar metrics 2,000 scenes — Pd = 0.916, F1 = 0.955, FPPI = 0.05, localisation error 0.56 px (≈27 m).</li>
+      <li>Validated sim-to-real transfer on live radar frames and added ByteTrack multi-frame association for persistent tracks; ran the whole pipeline offline in an air-gapped environment.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Projects</h2>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">AI Python Mentor</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/ai-python-mentor/">case study</a> · <a href="https://github.com/coffee1337/ai-python-mentor">source</a></div>
+    </div>
+    <div class="proj-stack">Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Next.js · Docker · RAG</div>
+    <div class="proj-result">350 API tests · 10 skipped · 15 sandbox tests · 90 exercises / 288 cases</div>
+    <p>Full-stack learning platform: 90 skills and exercises, an AI tutor with pgvector retrieval over immutable lesson snapshots, spaced repetition, career-path analysis, and a separate hardened runner that executes user Python outside the API (350 API tests, 15 sandbox tests).</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">RadarPPI-MTD</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/radar-ppi-mtd/">case study</a> · <a href="https://new.fips.ru/registers-doc-view/fips_servlet?DB=DB&amp;DocNumber=2026624059&amp;TypeFile=html">Rospatent</a></div>
+    </div>
+    <div class="proj-stack">Python · PyTorch · YOLO11s · OpenCV · NumPy · ByteTrack</div>
+    <div class="proj-result">Dataset registered in Rospatent registry · mAP@0.5 0.924 · Pd 0.916 · FPPI 0.05</div>
+    <p>Synthetic radar PPI dataset generator registered as a database (No. 2026624059) plus a moving-target detector: physical polar-to-pixel geometry, Poisson clutter and missed-scan simulation, balanced easy/medium/hard scenes, radar-native Pd/FPPI evaluation.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">portfolio-analytics</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/portfolio-analytics/">case study</a> · <a href="https://github.com/coffee1337/portfolio-analytics">source</a></div>
+    </div>
+    <div class="proj-stack">Python · FastAPI · SQLAlchemy 2.0 · PostgreSQL · React 19 · TypeScript · Tailwind · Docker</div>
+    <div class="proj-result">Running live on coffee1337.github.io · no cookies, no raw IPs</div>
+    <p>First-party analytics running live on this site: beacon collector with batch intake and rate limits, salted HMAC instead of raw IPs, async geo/ASN enrichment in background tasks, Core Web Vitals monitoring and a SPA dashboard with a 24×7 activity matrix.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">NGIE University App</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/ngie/">case study</a> · <a href="https://github.com/coffee1337/ngieuapp">source</a></div>
+    </div>
+    <div class="proj-stack">Flutter · Dart · Riverpod · Drift · SQLite · Kotlin · Swift · WidgetKit</div>
+    <div class="proj-result">Offline-first: schedule opens from cache · widgets rendered natively</div>
+    <p>Cross-platform university app with an offline-first Drift/SQLite cache, network and cache layers, schedule notifications and native home-screen and lock-screen widgets for Android and iOS.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">TransactionMonitor</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/transaction-monitor/">case study</a> · <a href="https://github.com/coffee1337/TransactionMonitor">source</a></div>
+    </div>
+    <div class="proj-stack">C# · .NET 8 · WinUI 3 · SQL Server</div>
+    <div class="proj-result">Rule-based scoring stored per transaction · CSV export for analysts</div>
+    <p>Desktop transaction monitoring and risk analysis: explainable rule-based scoring stored with each transaction, clients/accounts/counterparties, analyst review for high-risk operations and CSV export.</p>
+  </div>
+
+  <div class="proj">
+    <div class="proj-head">
+      <div class="proj-name">Neural A* Heuristic</div>
+      <div class="proj-links"><a href="https://coffee1337.github.io/projects/neural-astar/">case study</a> · <a href="https://github.com/coffee1337/neural-astar-heuristic">source</a></div>
+    </div>
+    <div class="proj-stack">Python · PyTorch · NumPy · A* · Docker</div>
+    <div class="proj-result">One architecture, three state spaces · trained from solved states</div>
+    <p>A value network V(s) trained from backward walks from solved states becomes the A* heuristic (f = g + V); one architecture covers three state spaces — 15 Puzzle, Toggle Lights and Cylinder — through a shared environment API.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="job">
+    <div class="job-head">
+      <div class="job-title">B.Sc. in Informatics and Computer Engineering (09.03.01) <span class="org">— NGIEU, Nizhny Novgorod State Engineering and Economic University</span></div>
+      <div class="job-when">2024 — 2028</div>
+    </div>
+    <p class="job-tag">ARTIFICIAL INTELLIGENCE SYSTEMS · 3RD YEAR · CLASS OF 2028</p>
+  </div>
+</section>
+
+<section>
+  <h2>Certifications &amp; Registered IP</h2>
+
+  <div class="card">
+    <div class="t">State Registration Certificate of Database No. 2026624059 — RadarPPI-MTD</div>
+    <div class="m">Rospatent (FIPS) · Aug 2026 · Rightholder: NGIEU · 11.8 GB · Radar PPI Generator v1.0.0</div>
+    <div class="l"><a href="https://new.fips.ru/registers-doc-view/fips_servlet?DB=DB&amp;DocNumber=2026624059&amp;TypeFile=html">FIPS registry</a> · <a href="https://coffee1337.github.io/certificates/ru2026624059-certificate.pdf">Certificate PDF</a> · <a href="https://coffee1337.github.io/certificates/ru2026624059-abstract.pdf">Abstract PDF</a></div>
+  </div>
+
+  <table>
+    <tr>
+      <td class="name">Generative AI Professional Certificate by Snowflake</td>
+      <td class="issuer">Snowflake · Nov 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/7dbcfe3d6e75e230a455c69fc572a2bf422822b777cc40686c8ec1b220177967/">verify</a></td>
+    </tr>
+    <tr>
+      <td class="name">Docker Foundations Professional Certificate</td>
+      <td class="issuer">Docker, Inc. · Oct 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/3da5e65791016cdc89e7f42a986a37c699f119cf7b6f90ac683362857740c3f7/">verify</a></td>
+    </tr>
+    <tr>
+      <td class="name">Microsoft Azure Essentials Professional Certificate</td>
+      <td class="issuer">Microsoft · Oct 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/1e5b63d85c89c9efa42594708e819226f4036646c14fd345356a085d3f5b58e6/">verify</a></td>
+    </tr>
+    <tr>
+      <td class="name">Career Essentials in GitHub Professional Certificate</td>
+      <td class="issuer">GitHub · Oct 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/5ee9bbacfc5a96408649fbb18ec701032c546fcc574f4395c077ae8cef0aed48/">verify</a></td>
+    </tr>
+    <tr>
+      <td class="name">Building AI Agents with Snowflake</td>
+      <td class="issuer">LinkedIn Learning · Snowflake · Nov 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/7432d7674af7d7e569f163ae9668c3a290d63075ec99cac1e8f563783c4bb768/">verify</a></td>
+    </tr>
+    <tr>
+      <td class="name">AWS Certified AI Practitioner (AIF-C01) Cert Prep</td>
+      <td class="issuer">LinkedIn Learning · Oct 2026</td>
+      <td class="verify"><a href="https://www.linkedin.com/learning/certificates/4ca1b7777b424c3d759513f754b34f1897de6d5f41921b8e65b70983d4adc663/">verify</a></td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="row"><b>Backend</b> <span>— Python 3.12, FastAPI, PostgreSQL, SQLAlchemy 2.0, Alembic, Redis, AsyncIO, REST APIs, cookie sessions, background jobs, Argon2</span></div>
+    <div class="row"><b>AI, ML &amp; Data</b> <span>— LLM APIs, RAG / pgvector, PyTorch, YOLO11s, OpenCV, NumPy, Pandas, ByteTrack, Snowflake, prompt and token-cost accounting</span></div>
+    <div class="row"><b>Cloud &amp; DevOps</b> <span>— Docker, Docker Compose, GitHub Actions, Microsoft Azure, AWS, Linux, Git, Caddy, Prometheus/Grafana, k6 load testing</span></div>
+    <div class="row"><b>Frontend, Mobile &amp; Desktop</b> <span>— React 19, Next.js 15, TypeScript, Tailwind CSS, Vite, Flutter/Dart, C#/.NET 8 + WinUI 3, C++17, Swift/WidgetKit, Kotlin</span></div>
+    <div class="row"><b>Engineering practice</b> <span>— pytest, Playwright, Playwright visual audits, CI pipelines, Alembic migrations, backup/restore drills, runbooks and threat modelling</span></div>
+  </div>
+</section>
+
+</body>
+</html>
